@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::get('/users', 'UsersController@index');
 Route::post('/save', 'UsersController@save');
+Route::post('/deploy','DeploymentController@deploy');
